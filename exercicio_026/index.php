@@ -21,6 +21,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     login();
 }
 
+function concatStr($str1, $str2) {
+    return $str1 . $str2;
+}
+
 ?>
 
 
